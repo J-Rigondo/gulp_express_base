@@ -1,0 +1,10 @@
+@import './base/all.scss';
+
+body {
+  background-color: aqua;
+  button {
+    &:hover {
+      color: black;
+    }
+  }
+}

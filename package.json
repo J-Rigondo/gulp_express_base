@@ -1,0 +1,33 @@
+{
+  "name": "korea_uic",
+  "version": "1.0.0",
+  "description": "uic",
+  "main": "index.js",
+  "scripts": {
+    "dev:server": "cross-env NODE_PATH=src nodemon --exec babel-node src/server --ignore assets/ --ignore src/static",
+    "dev:assets": "gulp"
+  },
+  "author": "chan hyeong park",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "babelify": "^10.0.0",
+    "body-parser": "^1.19.0",
+    "cross-env": "^7.0.2",
+    "del": "^5.1.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-sass": "^4.0.2",
+    "helmet": "^3.21.3",
+    "morgan": "^1.9.1",
+    "node-sass": "^4.13.1",
+    "nodemon": "^2.0.2",
+    "pug": "^2.0.4"
+  }
+}
